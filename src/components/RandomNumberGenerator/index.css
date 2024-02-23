@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.app-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+}
+
+.container {
+  background-color: white;
+  height: 500px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  border: 20px;
+  width: 60%;
+  box-shadow: 0px 0px 15px 0px;
+}
+
+.headding {
+  color: #0b69ff;
+  font-size: 38px;
+  font-family: 'roboto';
+}
+
+.even-odd {
+  color: #334155;
+  font-size: 25px;
+  font-family: 'roboto';
+}
+.button {
+  background-color: #0b69ff;
+
+  height: 50px;
+  width: 150px;
+  border: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 9px;
+}
+.note {
+  color: #333333;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
+  font-family: 'roboto';
+  font-weight: 400;
+}
+.count1 {
+  color: #0b69ff;
+  font-size: 35px;
+  font-weight: 800;
+}
